@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Paises de africa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    </head>
+    
+    <body bgcolor="black">
+        <form action ="Paises" method="POST">
+        <div class="inicio">
+      
+            <h1 style="color:white" class="text"  align="center"> Paises Africanos </h1>    
+            <p style="color:white" class="text"  align="center">Seleccionamos un país donde daremos la correcta información del mismo. <br>
+            Tenemos  un conversor de pesos a la moneda extranjera, junto a un traductor de español a el país seleccionado. </p>
+        </div>
+        <div class="mostrar">
+            <h3 style="color:white" class="text-center">
+                Por favor seleccione el país deseado:
+            </h3>
+            <select name="paisesA">
+
+<option value="1">Argelia</option>
+<option value="2">Camerún</option>
+<option value="3">Costa de marfil</option>
+<option value="4">Egipto</option>
+<option value="5">Etiopía</option>
+<option selected>--Por favor escoja una--</option>
+            </select>
+            <div class="conversion">
+                <h3 style="color:white" class="text-center">
+                    Por favor ingrese la cantidad de pesos a convertir:
+                </h3>
+                Ingrese Pesos: <input type="text" name="pesos"><br><br>
+                
+            </div>
+        </div>
+            <div class="Traduccion">
+                 <h3 style="color:white" class="text-center">
+                Por favor seleccione la palabra a traducir:
+            </h3>
+                  <font color="white">
+                <input type="radio" name="palabra" value="1" >HOLA  <br>
+                
+                 <input type="radio" name="palabra" value="2" >ADIOS<br>
+                  <input type="radio" name="palabra" value="3">PROGRAMANDO<br>
+                   <input type="radio" name="palabra" value="4">CORRER<br>
+                   <input type="radio" name="palabra" value="5">SALTAR<br><br>
+                
+
+            </div>
+            
+            <input type="submit" value="Enviar">
+            </form>
+        
+    </body>
+</html>
